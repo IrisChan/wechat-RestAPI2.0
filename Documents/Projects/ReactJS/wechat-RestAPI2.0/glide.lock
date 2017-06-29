@@ -1,0 +1,30 @@
+hash: 02a7cf2d6e1209235d7a54f41510bc9ee82822d01987094fca9324584beb6f9c
+updated: 2017-06-29T06:57:26.0586897-04:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: a539ee1a749a2b895533f979515ac7e6e0f5b650
+- name: github.com/go-ozzo/ozzo-dbx
+  version: 2dd287b3c2d5210d13a719767b81b092957142d0
+- name: github.com/go-ozzo/ozzo-routing
+  version: 4d63a23d3f8421c05db3999d8b0b765ed6a4bde4
+  subpackages:
+  - auth
+  - content
+  - cors
+- name: github.com/go-ozzo/ozzo-validation
+  version: d1008ad1fd04ceb5faedaf34881df0c504382706
+- name: github.com/golang/gddo
+  version: 95a6c634fc4948a832d26a56e029b7f709cab144
+  subpackages:
+  - httputil/header
+- name: github.com/lib/pq
+  version: 8837942c3e09574accbc5f150e2c5e057189cace
+- name: github.com/Sirupsen/logrus
+  version: 202f25545ea4cf9b191ff7f846df5d87c9382c2b
+- name: github.com/spf13/viper
+  version: c1de95864d73a5465492829d7cb2dd422b19ac96
+- name: golang.org/x/sys
+  version: 90796e5a05ce440b41c768bd9af257005e470461
+  subpackages:
+  - unix
+testImports: []

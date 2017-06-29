@@ -1,0 +1,12 @@
+package: .
+import:
+- package: github.com/Sirupsen/logrus
+  version: ^1.0.0
+- package: github.com/go-ozzo/ozzo-dbx
+  version: ^1.0.7
+- package: github.com/go-ozzo/ozzo-routing
+  version: ^2.1.2
+- package: github.com/lib/pq
+- package: github.com/spf13/viper
+- package: github.com/go-ozzo/ozzo-validation
+  version: ^3.1.0
